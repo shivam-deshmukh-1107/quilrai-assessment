@@ -1,0 +1,10 @@
+[project]
+name = "llm-gateway-py"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "regex>=2026.9.29",
+    "starlette>=1.10.0",
+    "uvicorn>=0.54.0",
+]
